@@ -19,5 +19,5 @@ end
 def id_hash_generator(number)
   # return a hash with a key :id assigned to the provided number
   pioneer_hash= Hash.new{}
-  pioneer_hash = {:id => 1234567890}
+  pioneer_hash = {:id => number}
 end
