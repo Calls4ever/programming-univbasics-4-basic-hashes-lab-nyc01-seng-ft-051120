@@ -5,7 +5,8 @@ end
 
 def my_hash
   # return a valid hash with any key/value pair of your choice
-new_hash= Hash.new{:name => "Tsering", :age => 25}
+new_hash= Hash.new
+new_hash={:name => "Tsering", :age => 25}
 end
 
 def pioneer
